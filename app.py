@@ -14,37 +14,62 @@ st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px; color: cyan; }
+
+    /* 动态获取 Streamlit 的主题颜色 */
+    .sidebar-link {
+        display: block;
+        padding: 10px 15px;
+        margin: 3px 0;
+        font-size: 18px;
+        color: var(--text-color); /* 动态文字颜色 */
+        text-align: left;
+        background-color: var(--background-color); /* 动态背景颜色 */
+        border: none;
+        border-radius: 5px;
+    }
+
+    .sidebar-link:hover {
+        background-color: var(--secondary-background-color); /* 鼠标悬停时使用 Streamlit 次级背景色 */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 鼠标悬停时添加高亮阴影 */
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: var(--primary-color); /* 激活状态使用主题的主色调 */
+        font-weight: bold;
+    }
     </style>
-    <p class="custom-text">Welcome to My Personal Blog</p>
 """, unsafe_allow_html=True)
 
 st.divider()
 
-# 布局部分
-col1, col2 = st.columns([1, 5], gap="medium")
-with col1:
-    image = Image.open('your_image.jpg')  # 替换为你的头像图片路径
-    st.image(image)
-
-with col2:
-    st.markdown('<div style="text-align: justify">你好！我是 [你的名字]，目前是一名软件开发工程师。在这里我将分享我的学习、生活和项目经验。</div>', unsafe_allow_html=True)
-    st.markdown('<div style="text-align: justify">我专注于开发高效的应用程序，热爱编程、阅读和探索新技术。欢迎大家交流合作！</div>', unsafe_allow_html=True)
-
-st.divider()
-
-# 关于我部分
-st.subheader("关于我")
-st.markdown('<div style="text-align: justify">我是 [你的名字]，在软件开发行业拥有丰富的经验，热衷于学习新技术和分享知识。</div>', unsafe_allow_html=True)
-st.markdown('<div style="text-align: justify">除了编程，我喜欢阅读科幻小说、旅行和摄影，这些爱好让我保持创意和灵感。</div>', unsafe_allow_html=True)
-
 # 侧边栏导航
 with st.sidebar:
-    st.header("导航")
-    st.markdown("""
-    - [主页](#)
-    - [其他页面](#)
-    - [联系我](#)
-    """)
+    st.header("Menu")
+
+    pages = {
+        "🏠 Home": "Home",
+        "📚 Experience": "Experience",
+        "📖 Publications": "Publications",
+        "📜 Certificates": "Certificates",
+        "🏆 Awards": "Awards",
+        "📞 Contact": "Contact"
+    }
+
+    if "page" not in st.session_state:
+        st.session_state.page = "Home"
+
+    for page, module in pages.items():
+        is_active = "active" if st.session_state.page == module else ""
+        st.markdown(
+            f'<div class="sidebar-link {is_active}" onclick="window.location=\'/{module.lower()}.py\';">{page}</div>',
+            unsafe_allow_html=True
+        )
+
+# 页面内容（默认显示主页内容）
+st.title("Home")
+st.markdown('<div style="text-align: justify">你好！我是 [你的名字]，目前是一名软件开发工程师。在这里我将分享我的学习、生活和项目经验。</div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: justify">我专注于开发高效的应用程序，热爱编程、阅读和探索新技术。欢迎大家交流合作！</div>', unsafe_allow_html=True)
 
 # 底部声明
 col6, col7, col8 = st.columns([1, 4, 1])
