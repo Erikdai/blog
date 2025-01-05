@@ -131,7 +131,15 @@ col1, col2 = st.columns([1, 2], gap="medium")
 
 # Left column for profile image
 with col1:
-    st.image("static/id.jpg", width=250, caption="DingDong🐔")
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <img src="static/id.jpg" style="width: 300px; border-radius: 10px;" alt="Profile Image">
+            <p style="font-style: italic; font-size: 16px; color: #666;">DingDongJi</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 # Right column for detailed bio
 # Right column for detailed bio
@@ -147,7 +155,6 @@ with col2:
     )
 
 # End of main content section
-st.markdown(""" """,)
 st.markdown(""" """,)
 st.divider()
 st.markdown('</div>', unsafe_allow_html=True)
