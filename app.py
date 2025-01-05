@@ -58,8 +58,8 @@ st.markdown("""
     }
     .contact-links a img {
         margin-right: 2px;
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
     }
     .contact-links a:hover {
@@ -159,7 +159,7 @@ st.markdown(
             <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle">Kaggle
         </a>
         <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank">
-            <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
+            <img src="https://static.vecteezy.com/system/resources/previews/016/716/470/non_2x/linkedin-icon-free-png.png">" alt="LinkedIn">LinkedIn
         </a>
         <a href="mailto:daicxx1226@gmail.com">
             <img src="https://static.vecteezy.com/system/resources/previews/022/484/516/large_2x/google-mail-gmail-icon-logo-symbol-free-png.png" alt="Email">Email
