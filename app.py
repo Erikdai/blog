@@ -101,7 +101,7 @@ with st.sidebar:
     st.header("Menu")
 
     pages = {
-        "🏠 Home": "Home",
+        "    🏠 Home": "Home",
         "📚 Experience": "Experience",
         "📖 Publications": "Publications",
         "🏆 Awards & Certificates": "Awards&Certificates",
