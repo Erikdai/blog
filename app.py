@@ -122,25 +122,25 @@ with st.sidebar:
 # 页面内容显示逻辑
 if st.session_state.page == "Home":
 
-elif st.session_state.page == "Experience":
-    st.title("Experience Page")
-    st.markdown("Welcome to the Experience Page!")
+    elif st.session_state.page == "Experience":
+        st.title("Experience Page")
+        st.markdown("Welcome to the Experience Page!")
+    
+    elif st.session_state.page == "Publications":
+        st.title("Publications Page")
+        st.markdown("Welcome to the Publications Page!")
+    
+    elif st.session_state.page == "Awards&Certificates":
+        st.title("Awards & Certificates")
+        st.divider()
 
-elif st.session_state.page == "Publications":
-    st.title("Publications Page")
-    st.markdown("Welcome to the Publications Page!")
-
-elif st.session_state.page == "Awards&Certificates":
-    st.title("Awards & Certificates")
-    st.divider()
-
-    # 加载 Markdown 文件内容
-    try:
-        with open("pages/awards_certificates.md", "r", encoding="utf-8") as file:
-            md_content = file.read()
-        st.markdown(md_content, unsafe_allow_html=True)  # 显示 Markdown 文件内容
-    except FileNotFoundError:
-        st.error("The file 'award_certificates.md' was not found.")
+        # 加载 Markdown 文件内容
+        try:
+            with open("pages/awards_certificates.md", "r", encoding="utf-8") as file:
+                md_content = file.read()
+            st.markdown(md_content, unsafe_allow_html=True)  # 显示 Markdown 文件内容
+        except FileNotFoundError:
+            st.error("The file 'award_certificates.md' was not found.")
 
 
 # Page content (Home page)
