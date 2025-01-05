@@ -178,7 +178,7 @@ elif st.session_state.page == "Publications":
 elif st.session_state.page == "Certificates":
     # 加载 Markdown 文件内容
     try:
-        with open("pages/certificates.md", "r", encoding="utf-8") as file:
+        with open("pages/certificates.py", "r", encoding="utf-8") as file:
             md_content = file.read()
         st.markdown(md_content, unsafe_allow_html=True)  # 显示 Markdown 文件内容
     except FileNotFoundError:
