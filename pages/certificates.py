@@ -1,48 +1,73 @@
-import streamlit as st
+# Certificates 📜
 
-# 设置页面标题
-st.title("Certificates 📜")
-st.divider()
+---
 
-# 使用 st.image 展示证书
-st.subheader("Certificate 1")
-st.image("./pages/cert1.png", caption="Certificate 1", use_column_width=True)
+## Certificate 1
+![Certificate 1](cert1.png)
 
-st.subheader("Certificate 2")
-st.image("pages/cert2.png", caption="Certificate 2", use_column_width=True)
+---
 
-st.subheader("Certificate 3")
-st.image("pages/cert3.png", caption="Certificate 3", use_column_width=True)
+## Certificate 2
+![Certificate 2](cert2.png)
 
-st.subheader("Certificate 4")
-st.image("pages/cert4.png", caption="Certificate 4", use_column_width=True)
+---
 
-st.subheader("Certificate 5")
-st.image("pages/cert5.png", caption="Certificate 5", use_column_width=True)
+## Certificate 3
+![Certificate 3](cert3.png)
 
-st.subheader("Certificate 6")
-st.image("cert6.png", caption="Certificate 6", use_column_width=True)
+---
 
-st.subheader("Certificate 7")
-st.image("cert7.png", caption="Certificate 7", use_column_width=True)
+## Certificate 4
+![Certificate 4](cert4.png)
 
-st.subheader("Certificate 8")
-st.image("cert8.png", caption="Certificate 8", use_column_width=True)
+---
 
-st.subheader("Certificate 9")
-st.image("cert9.png", caption="Certificate 9", use_column_width=True)
+## Certificate 5
+![Certificate 5](cert5.png)
 
-st.subheader("Certificate 10")
-st.image("cert10.png", caption="Certificate 10", use_column_width=True)
+---
 
-st.subheader("Certificate 11")
-st.image("cert11.png", caption="Certificate 11", use_column_width=True)
+## Certificate 6
+![Certificate 6](cert6.png)
 
-st.subheader("Certificate 12")
-st.image("cert12.png", caption="Certificate 12", use_column_width=True)
+---
 
-st.subheader("Certificate 13")
-st.image("cert13.png", caption="Certificate 13", use_column_width=True)
+## Certificate 7
+![Certificate 7](cert7.png)
 
-st.subheader("Certificate 14")
-st.image("cert14.png", caption="Certificate 14", use_column_width=True)
+---
+
+## Certificate 8
+![Certificate 8](cert8.png)
+
+---
+
+## Certificate 9
+![Certificate 9](cert9.png)
+
+---
+
+## Certificate 10
+![Certificate 10](cert10.png)
+
+---
+
+## Certificate 11
+![Certificate 11](cert11.png)
+
+---
+
+## Certificate 12
+![Certificate 12](cert12.png)
+
+---
+
+## Certificate 13
+![Certificate 13](cert13.png)
+
+---
+
+## Certificate 14
+![Certificate 14](cert14.png)
+
+---
