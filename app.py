@@ -101,10 +101,11 @@ with st.sidebar:
     st.header("Menu")
 
     pages = {
-        "    🏠 Home": "Home",
+        "🏠 About me": "Home",
         "📚 Experience": "Experience",
         "📖 Publications": "Publications",
-        "🏆 Awards & Certificates": "Awards&Certificates",
+        "📜 CErtificates": "Certificates"，
+        "🏆 Awards: "Awards",
     }
 
     if "page" not in st.session_state:
