@@ -7,6 +7,37 @@ st.set_page_config(
     layout="wide",
 )
 
+# Add CSS for styling the footer icons
+st.markdown("""
+    <style>
+    /* Footer contact links styles */
+    .contact-links {
+        display: flex;
+        justify-content: center; /* Center the links */
+        align-items: center;
+        gap: 30px; /* Space between links */
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .contact-links a {
+        text-decoration: none;
+        color: var(--text-color);
+        display: inline-flex;
+        align-items: center;
+    }
+    .contact-links a img {
+        margin-right: 8px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%; /* Makes the icons circular */
+    }
+    .contact-links a:hover {
+        text-decoration: underline;
+        color: #007BFF; /* Blue color on hover */
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 # Main Page (Home)
 st.title("About me")
 st.divider()
@@ -43,13 +74,13 @@ st.markdown(
     """
     <div class="contact-links">
         <a href="https://www.kaggle.com/patpan" target="_blank">
-            <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle" style="height: 45px; margin-right: 7px;">Kaggle
+            <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle">Kaggle
         </a>
         <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank">
             <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
         </a>
         <a href="mailto:your_email@example.com">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/018/972/241/small_2x/3d-message-icon-a-modern-email-concept-on-isolate-background-png.png" alt="Email" style="height: 45px; width: 45px; margin-right: 9px;">Email
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/018/972/241/small_2x/3d-message-icon-a-modern-email-concept-on-isolate-background-png.png" alt="Email">Email
         </a>
     </div>
     """,
