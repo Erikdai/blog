@@ -159,7 +159,7 @@ st.markdown(
             <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle">Kaggle
         </a>
         <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank">
-            <img src="https://www.freepnglogos.com/uploads/official-linkedin-logo----17.png" alt="LinkedIn">LinkedIn
+            <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
         </a>
         <a href="mailto:daicxx1226@gmail.com">
             <img src="https://image.pngaaa.com/911/281911-middle.png" alt="Email">Email
