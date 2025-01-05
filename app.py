@@ -1,49 +1,104 @@
 import streamlit as st
 from PIL import Image
 
-# 设置页面配置
+# Set page configuration
 st.set_page_config(
-    page_title="个人博客",
-    page_icon="📝",
+    page_title="Daicx666",
+    page_icon="🚀",
     layout="wide",
 )
 
-# 添加顶部 Logo 和标题
-st.image("https://via.placeholder.com/150", width=150)  # 替换为你的 Logo 图片链接
+# Add CSS for custom styling
 st.markdown("""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Agdasima');
-    .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px; color: cyan; }
+    /* Sidebar fixed and non-collapsible */
+    [data-testid="collapsedControl"] {
+        display: none;
+    }
 
-    /* 动态获取 Streamlit 的主题颜色 */
+    /* Sidebar link styles */
     .sidebar-link {
         display: block;
         padding: 10px 15px;
         margin: 3px 0;
         font-size: 18px;
-        color: var(--text-color); /* 动态文字颜色 */
+        color: var(--text-color);
         text-align: left;
-        background-color: var(--background-color); /* 动态背景颜色 */
+        background-color: var(--background-color);
         border: none;
         border-radius: 5px;
     }
 
     .sidebar-link:hover {
-        background-color: var(--secondary-background-color); /* 鼠标悬停时使用 Streamlit 次级背景色 */
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 鼠标悬停时添加高亮阴影 */
+        background-color: var(--secondary-background-color);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         cursor: pointer;
     }
 
     .active {
-        background-color: var(--primary-color); /* 激活状态使用主题的主色调 */
+        background-color: #007BFF; /* Blue highlight color */
         font-weight: bold;
+        color: white;
+    }
+
+    /* Contact links */
+    .contact-links {
+        display: flex;
+        justify-content: center; /* Center the links */
+        align-items: center;
+        gap: 30px; /* Space between links */
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .contact-links a {
+        text-decoration: none;
+        color: var(--text-color);
+        display: inline-flex;
+        align-items: center;
+    }
+    .contact-links a img {
+        margin-right: 8px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .contact-links a:hover {
+        text-decoration: underline;
+        color: #007BFF; /* Blue color on hover */
+    }
+
+    /* Main content area */
+    .main-content {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* About section layout */
+    .about-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-text {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.8;
+        margin-top: 20px;
+    }
+
+    /* Responsive font size for smaller screens */
+    @media (max-width: 768px) {
+        .about-text {
+            font-size: 16px;
+        }
     }
     </style>
 """, unsafe_allow_html=True)
 
-st.divider()
-
-# 侧边栏导航
+# Sidebar navigation
 with st.sidebar:
     st.header("Menu")
 
@@ -51,9 +106,7 @@ with st.sidebar:
         "🏠 Home": "Home",
         "📚 Experience": "Experience",
         "📖 Publications": "Publications",
-        "📜 Certificates": "Certificates",
-        "🏆 Awards": "Awards",
-        "📞 Contact": "Contact"
+        "🏆 Awards & Certificates": "Awards&Certificates",
     }
 
     if "page" not in st.session_state:
@@ -66,13 +119,59 @@ with st.sidebar:
             unsafe_allow_html=True
         )
 
-# 页面内容（默认显示主页内容）
-st.title("Home")
-st.markdown('<div style="text-align: justify">你好！我是 [你的名字]，目前是一名软件开发工程师。在这里我将分享我的学习、生活和项目经验。</div>', unsafe_allow_html=True)
-st.markdown('<div style="text-align: justify">我专注于开发高效的应用程序，热爱编程、阅读和探索新技术。欢迎大家交流合作！</div>', unsafe_allow_html=True)
+# Page content (Home page)
+st.title("About Me😎")
+st.divider()
 
-# 底部声明
-col6, col7, col8 = st.columns([1, 4, 1])
-with col7:
-    st.markdown('<div style="text-align: center;">I believe in: <span style="color: green; font-weight: bold;">"No dream is too big and no dreamer is too small"</span></div>', unsafe_allow_html=True)
-    st.markdown('<div style="text-align: center;">_An effort by_: <span style="color: red;">**Your Name**</span></div>', unsafe_allow_html=True)
+# Main content section
+st.markdown('<div class="main-content">', unsafe_allow_html=True)
+
+# Columns for layout
+col1, col2 = st.columns([1, 2], gap="medium")
+
+# Left column for profile image
+with col1:
+    st.markdown(
+        """
+        <div style="width: 225px; height: 225px; border-radius: 50%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+            <img src="https://via.placeholder.com/200" style="width: 100%; height: 100%; object-fit: cover;" alt="Profile Image">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+# Right column for detailed bio
+# Right column for detailed bio
+with col2:
+    st.markdown(
+        """
+        <div class="about-text" style="margin-top: -5px;"> <!-- 调整margin-top向上移动 -->
+        Hello! Welcome to my personal page!🥳I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
+        My areas of interest include <span style="font-weight:bold;">Machine Learning (ML)</span>, <span style="font-weight:bold;">Large Language Models (LLMs)</span>, and <span style="font-weight:bold;">Natural Language Processing (NLP)</span>. I have also conducted some research in <span style="font-weight:bold;">AI for Social Sciences (Cognitive Computing)</span> and <span style="font-weight:bold;">Computer Vision (CV)</span>.<br>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+# End of main content section
+st.markdown('</div>', unsafe_allow_html=True)
+
+# Footer with social links
+st.markdown(""" """,)
+st.divider()
+st.markdown(
+    """
+    <div class="contact-links">
+        <a href="https://www.kaggle.com" target="_blank">
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png" alt="Kaggle">Kaggle
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
+        </a>
+        <a href="mailto:your_email@example.com">
+            <img src="https://static.vecteezy.com/system/resources/previews/022/613/021/original/google-mail-gmail-icon-logo-symbol-free-png.png" alt="Email">Email
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
