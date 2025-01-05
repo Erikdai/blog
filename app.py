@@ -58,7 +58,7 @@ st.markdown("""
     }
     .contact-links a img {
         margin-right: 8px;
-        width: 40px;
+        width: 50px;
         height: 40px;
         border-radius: 50%;
     }
