@@ -147,6 +147,7 @@ with col2:
     )
 
 # End of main content section
+st.markdown(""" """,)
 st.divider()
 st.markdown('</div>', unsafe_allow_html=True)
 
