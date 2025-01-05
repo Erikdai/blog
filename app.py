@@ -104,7 +104,7 @@ with st.sidebar:
         "🏠 About me": "Home",
         "📚 Experience": "Experience",
         "📖 Publications": "Publications",
-        "📜 CErtificates": "Certificates"，
+        "📜 CErtificates": "Certificates",
         "🏆 Awards: "Awards",
     }
 
