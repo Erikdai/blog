@@ -59,7 +59,7 @@ st.markdown("""
     .contact-links a img {
         margin-right: 2px;
         width: 60px;
-        height: 60px;
+        height: 55px;
         border-radius: 50%;
     }
     .contact-links a:hover {
