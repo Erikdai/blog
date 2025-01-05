@@ -102,13 +102,7 @@ st.markdown("""
 # Sidebar navigation
 with st.sidebar:
     st.header("Menu")
-
-    # 定义页面字典，键为显示在侧边栏的名称，值为页面标识
-   # Sidebar navigation
-with st.sidebar:
-    st.header("Menu")
-
-    # 定义页面字典
+    
     pages = {
         "🏠 Home": "Home",
         "📚 Experience": "Experience",
