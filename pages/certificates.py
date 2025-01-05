@@ -13,14 +13,14 @@ certificates = [
     {"path": "pages/cert7.png", "caption": "Certificate 7"},
     {"path": "pages/cert8.png", "caption": "Certificate 8"},
     {"path": "pages/cert9.png", "caption": "Certificate 9"},
-    {"path": "pages/cert10.png", "caption": "Certificate 10"},
-    {"path": "pages/cert11.png", "caption": "Certificate 11"},
-    {"path": "pages/cert12.png", "caption": "Certificate 12"},
-    {"path": "pages/cert13.png", "caption": "Certificate 13"},
-    {"path": "pages/cert14.png", "caption": "Certificate 14"},
+    {"path": "pages/cert10.jpg", "caption": "Certificate 10"},
+    {"path": "pages/cert11.jpg", "caption": "Certificate 11"},
+    {"path": "pages/cert12.jpg", "caption": "Certificate 12"},
+    {"path": "pages/cert13.jpg", "caption": "Certificate 13"},
+    {"path": "pages/cert14.jpg", "caption": "Certificate 14"},
 ]
 
 for cert in certificates:
     st.subheader(cert["caption"])
-    st.image(cert["path"], caption=cert["caption"], use_column_width=True)
+    st.image(cert["path"], caption=cert["caption"], use_container_width=True)
     st.divider()
