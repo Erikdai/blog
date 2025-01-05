@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="📜 Certificates",  # 设置页面的标题
+    page_title="📜Certificates",  # 设置页面的标题
     page_icon="📜",  # 设置页面的图标
 )
 st.title("Certificates 📜")
