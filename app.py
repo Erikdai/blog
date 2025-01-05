@@ -99,9 +99,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Sidebar navigation
+# Sidebar navigation
 with st.sidebar:
     st.header("Menu")
 
+    # 定义页面字典，键为显示在侧边栏的名称，值为页面标识
     pages = {
         "🏠 Home": "Home",
         "📚 Experience": "Experience",
@@ -109,15 +111,40 @@ with st.sidebar:
         "🏆 Awards & Certificates": "Awards&Certificates",
     }
 
+    # 设置默认页面为 Home
     if "page" not in st.session_state:
         st.session_state.page = "Home"
 
-    for page, module in pages.items():
-        is_active = "active" if st.session_state.page == module else ""
-        st.markdown(
-            f'<div class="sidebar-link {is_active}" onclick="window.location=\'/{module.lower()}.py\';">{page}</div>',
-            unsafe_allow_html=True
-        )
+    # 创建侧边栏导航按钮
+    for page_name, page_key in pages.items():
+        if st.button(page_name):  # 每个页面对应一个按钮
+            st.session_state.page = page_key  # 切换页面
+
+# 根据当前页面显示内容
+if st.session_state.page == "Home":
+    st.title("Home Page")
+    st.markdown("Welcome to the Home Page!")
+
+elif st.session_state.page == "Experience":
+    st.title("Experience Page")
+    st.markdown("Welcome to the Experience Page!")
+
+elif st.session_state.page == "Publications":
+    st.title("Publications Page")
+    st.markdown("Welcome to the Publications Page!")
+
+elif st.session_state.page == "Awards&Certificates":
+    st.title("Awards & Certificates")
+    st.divider()
+
+    # 加载 Markdown 文件内容
+    try:
+        with open("pages/award_certificates.md", "r", encoding="utf-8") as f:
+            md_content = f.read()
+        st.markdown(md_content)
+    except FileNotFoundError:
+        st.error("The file 'award_certificates.md' was not found.")
+
 
 # Page content (Home page)
 st.title("About me")
