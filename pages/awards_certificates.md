@@ -3,7 +3,7 @@
 ---
 
 ## Certificate 1
-![Certificate 1](/21a78924fff086317b29632779d732d9.jpg)
+![Certificate 1](pages/cert1.png)
 
 ---
 
