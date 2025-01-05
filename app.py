@@ -139,7 +139,7 @@ with col2:
     st.markdown(
         """
         <div class="about-text" style="margin-top: -5px;"> <!-- 调整margin-top向上移动 -->
-        Hello! Welcome to my personal page!🥳I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
+        🥳 Hello! Welcome to my personal page! I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
         My areas of interest include <span style="font-weight:bold;">Machine Learning (ML)</span>, <span style="font-weight:bold;">Large Language Models (LLMs)</span>, and <span style="font-weight:bold;">Natural Language Processing (NLP)</span>. I have also conducted some research in <span style="font-weight:bold;">AI for Social Sciences (Cognitive Computing)</span> and <span style="font-weight:bold;">Computer Vision (CV)</span>.<br>
         </div>
         """,
