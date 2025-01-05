@@ -175,10 +175,7 @@ elif st.session_state.page == "Publications":
     st.title("Publications Page")
     st.markdown("Welcome to the Publications Page!")
 
-elif st.session_state.page == "Awards&Certificates":
-    st.title("Awards & Certificates")
-    st.divider()
-
+elif st.session_state.page == "Certificates":
     # 加载 Markdown 文件内容
     try:
         with open("pages/awards_certificates.md", "r", encoding="utf-8") as file:
