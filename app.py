@@ -16,31 +16,27 @@ st.markdown("""
         display: none;
     }
 
-    /* Sidebar link styles */
-    .sidebar-link {
+    /* Sidebar button styles */
+    .sidebar-button {
         display: block;
-        padding: 15px; /* Ensures consistent height */
-        margin: 5px 0; /* Adds space between buttons */
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        margin: 5px 0;
         font-size: 18px;
-        color: var(--text-color);
-        text-align: center; /* Center align text */
-        background-color: var(--background-color);
+        color: white;
+        background-color: #007BFF;
         border: none;
         border-radius: 5px;
-        height: 50px; /* Ensures all buttons have the same height */
-        line-height: 20px; /* Centers the text vertically */
-    }
-
-    .sidebar-link:hover {
-        background-color: var(--secondary-background-color);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         cursor: pointer;
     }
 
-    .active {
-        background-color: #007BFF; /* Blue highlight color */
-        font-weight: bold;
-        color: white;
+    .sidebar-button:hover {
+        background-color: #0056b3;
+    }
+
+    .sidebar-button.active {
+        background-color: #004080;
     }
 
     /* Contact links */
@@ -114,12 +110,10 @@ with st.sidebar:
     if "page" not in st.session_state:
         st.session_state.page = "Home"
 
-    for page, module in pages.items():
-        is_active = "active" if st.session_state.page == module else ""
-        st.markdown(
-            f'<div class="sidebar-link {is_active}" onclick="window.location=\'/{module.lower()}.py\';">{page}</div>',
-            unsafe_allow_html=True
-        )
+    for page_name, page_key in pages.items():
+        # Sidebar buttons
+        if st.button(page_name):
+            st.session_state.page = page_key
 
 # 页面内容显示逻辑
 if st.session_state.page == "Home":
