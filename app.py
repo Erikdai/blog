@@ -156,13 +156,13 @@ st.markdown(
     """
     <div class="contact-links">
         <a href="https://www.kaggle.com/patpan" target="_blank">
-            <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle">Kaggle
+            <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle" style="height: 45px;">Kaggle
         </a>
         <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank">
             <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
         </a>
         <a href="mailto:your_email@example.com">
-              <img src="https://static.vecteezy.com/system/resources/previews/048/116/360/non_2x/gmail-email-logo-icon-free-png.png" alt="Email"  style="height: 100px;">Email
+            <img src="https://static.vecteezy.com/system/resources/previews/048/116/360/non_2x/gmail-email-logo-icon-free-png.png" alt="Email" >Email
         </a>
     </div>
     """,
