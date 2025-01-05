@@ -105,7 +105,7 @@ with st.sidebar:
         "📚 Experience": "Experience",
         "📖 Publications": "Publications",
         "📜 Certificates": "Certificates",
-        "🏆 Awards: "Awards"
+        "🏆 Awards": "Awards"
     }
 
     if "page" not in st.session_state:
