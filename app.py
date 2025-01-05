@@ -138,7 +138,7 @@ with col2:
     st.markdown(
         """
         <div class="about-text" style="margin-top: -5px;"> <!-- 调整margin-top向上移动 -->
-        Hello! Welcome to my personal page🥳 I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
+        Hello! Welcome to my personal page:) I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
         My areas of interest include <span style="font-weight:bold;">Machine Learning (ML)</span>, <span style="font-weight:bold;">Large Language Models (LLMs)</span>, and <span style="font-weight:bold;">Natural Language Processing (NLP)</span>. I have also conducted some research in <span style="font-weight:bold;">AI for Social Sciences (Cognitive Computing)</span> and <span style="font-weight:bold;">Computer Vision (CV)</span>.<br>
         </div>
         """,
@@ -155,13 +155,13 @@ st.markdown('</div>', unsafe_allow_html=True)
 st.markdown(
     """
     <div class="contact-links">
-        <a href="https://www.kaggle.com" target="_blank">
+        <a href="https://www.kaggle.com/patpan" target="_blank">
             <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png" alt="Kaggle">Kaggle
         </a>
-        <a href="https://www.linkedin.com" target="_blank">
+        <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank">
             <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
         </a>
-        <a href="mailto:your_email@example.com">
+        <a href="mailto:daicxx1226@gmail.com">
             <img src="https://static.vecteezy.com/system/resources/previews/022/613/021/original/google-mail-gmail-icon-logo-symbol-free-png.png" alt="Email">Email
         </a>
     </div>
