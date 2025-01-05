@@ -58,8 +58,8 @@ st.markdown("""
     }
     .contact-links a img {
         margin-right: 2px;
-        width: 55px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
     }
     .contact-links a:hover {
@@ -161,8 +161,8 @@ st.markdown(
         <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank">
             <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
         </a>
-        <a href="mailto:daicxx1226@gmail.com">
-            <img src="https://static.vecteezy.com/system/resources/previews/048/116/360/non_2x/gmail-email-logo-icon-free-png.png" alt="Email">Email
+        <a href="mailto:your_email@example.com">
+              <img src="https://static.vecteezy.com/system/resources/previews/048/116/360/non_2x/gmail-email-logo-icon-free-png.png" alt="Email"  style="height: calc(100% - 5px);">Email
         </a>
     </div>
     """,
