@@ -131,14 +131,7 @@ col1, col2 = st.columns([1, 2], gap="medium")
 
 # Left column for profile image
 with col1:
-    st.markdown(
-        """
-        <div style="width: 225px; height: 225px; border-radius: 50%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
-            <img src="https://via.placeholder.com/200" style="width: 100%; height: 100%; object-fit: cover;" alt="Profile Image">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    st.image("static/id.jpg", width=225, caption="DingDongJi")
 
 # Right column for detailed bio
 # Right column for detailed bio
@@ -154,11 +147,11 @@ with col2:
     )
 
 # End of main content section
+st.divider()
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Footer with social links
-st.markdown(""" """,)
-st.divider()
+# st.markdown(""" """,)
 st.markdown(
     """
     <div class="contact-links">
