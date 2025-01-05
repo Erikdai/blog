@@ -178,5 +178,5 @@ elif st.session_state.page == "Publications":
 elif st.session_state.page == "Certificates":
    try:
     import pages.certificates  # 动态加载 certificates.py
-except ModuleNotFoundError:
+   except ModuleNotFoundError:
     st.error("The file 'certificates.py' was not found.")
