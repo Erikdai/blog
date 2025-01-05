@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.title("Certificates 📜")
+st.divider()
 
 # 手动加载每张图片
 certificates = [
