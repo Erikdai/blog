@@ -3,27 +3,27 @@
 ---
 
 ## Certificate 1
-![Certificate 1](cert1.png)
+![Certificate 1](pages/cert1.png)
 
 ---
 
 ## Certificate 2
-![Certificate 2](cert2.png)
+![Certificate 2](pages/cert2.png)
 
 ---
 
 ## Certificate 3
-![Certificate 3](cert3.png)
+![Certificate 3](pages/cert3.png)
 
 ---
 
 ## Certificate 4
-![Certificate 4](cert4.png)
+![Certificate 4](pages/cert4.png)
 
 ---
 
 ## Certificate 5
-![Certificate 5](cert5.png)
+![Certificate 5](pages/cert5.png)
 
 ---
 
