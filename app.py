@@ -104,8 +104,8 @@ with st.sidebar:
         "🏠 About me": "Home",
         "📚 Experience": "Experience",
         "📖 Publications": "Publications",
-        "📜 CErtificates": "Certificates",
-        "🏆 Awards: "Awards",
+        "📜 Certificates": "Certificates",
+        "🏆 Awards: "Awards"
     }
 
     if "page" not in st.session_state:
