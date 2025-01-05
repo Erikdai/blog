@@ -162,7 +162,7 @@ st.markdown(
             <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
         </a>
         <a href="mailto:daicxx1226@gmail.com">
-            <img src="https://th.bing.com/th/id/OIP.mkWD_SyIifHTIR5hHv3BwwHaEH?rs=1&pid=ImgDetMain" alt="Email">Email
+            <img src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png" alt="Email">Email
         </a>
     </div>
     """,
