@@ -176,10 +176,7 @@ elif st.session_state.page == "Publications":
     st.markdown("Welcome to the Publications Page!")
 
 elif st.session_state.page == "Certificates":
-    # 加载 Markdown 文件内容
-    try:
-        with open("pages/certificates.md", "r", encoding="utf-8") as file:
-            md_content = file.read()
-        st.markdown(md_content, unsafe_allow_html=True)  # 显示 Markdown 文件内容
-    except FileNotFoundError:
-        st.error("The file 'awards_certificates.md' was not found.")
+   try:
+    import pages.certificates  # 动态加载 certificates.py
+except ModuleNotFoundError:
+    st.error("The file 'certificates.py' was not found.")
