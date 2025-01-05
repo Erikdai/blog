@@ -3,7 +3,7 @@
 ---
 
 ## Certificate 1
-![Certificate 1](pages/cert1.png)
+![Certificate 1](./pages/cert1.png)
 
 ---
 
