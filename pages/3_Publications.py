@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Certificates 📜")
+st.title("Publications📖")
 st.divider()
 
 # 自定义证书名字、图片路径以及图片标题
