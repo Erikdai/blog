@@ -14,12 +14,12 @@ st.divider()
 publications = [
     {
         "title": "From the Perspective of Explainable Machine Learning: A Student Feature Selection Strategy Based on the Geometric Mean of Feature Importance and Robustness",
-        "conference": "ACM ICCMT 2024 (Conference Paper, Published)",
+        "conference": "ACM The 2024 International Conference on Computer and Multimedia Technology (Conference Paper, Published)",
         "link": "https://dl.acm.org/doi/10.1145/3675249.3675335",
     },
     {
         "title": "Fault Diagnosis of Aero-engine Inter-shaft Bearings Using a Parallel SE-Depthwise Separable Convolutional Neural Network and Transformer Model",
-        "conference": "IEEE 7th MCTE 2024 (Conference Paper, Accepted for Publication)",
+        "conference": "IEEE 2024 7th International Conference on Mechatronics and Computer Technology Engineering (Conference Paper, Accepted for Publication)",
     },
     {
         "title": "LawLuo: A Multi-Agent Collaborative Framework for Chinese Legal Consultation",
