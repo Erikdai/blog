@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Publications📖")
+st.title("📖Publications")
 st.divider()
 
 # Define publications
