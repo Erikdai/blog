@@ -74,13 +74,13 @@ st.markdown(
     """
     <div class="contact-links">
         <a href="https://www.kaggle.com/patpan" target="_blank">
-            <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle" style="height: 45px; width: 55px; margin-right: 5px;">Kaggle
+            <img src="https://www.dataapplab.com/wp-content/uploads/2016/10/kaggle-logo-transparent-300-768x349.png" alt="Kaggle" style="height: 50px; width: 60px; margin-right: 5px;">Kaggle
         </a>
         <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank">
             <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">LinkedIn
         </a>
         <a href="mailto:your_email@example.com">
-            <img src="https://static.vecteezy.com/system/resources/previews/022/484/516/non_2x/google-mail-gmail-icon-logo-symbol-free-png.png" alt="Email" style="height: 40px; width: 40px; margin-right: 8px;">Email
+            <img src="https://static.vecteezy.com/system/resources/previews/022/484/516/non_2x/google-mail-gmail-icon-logo-symbol-free-png.png" alt="Email" style="height: 35px; width: 35px; margin-right: 8px;">Email
         </a>
     </div>
     """,
