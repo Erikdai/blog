@@ -56,10 +56,34 @@ with col1:
 with col2:
     st.markdown(
         """
-        <div class="about-text" style="margin-top: -10px;">
-        Hello! Welcome to my personal page :) I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
-        My areas of interest include <span style="font-weight:bold;">Machine Learning (ML)</span>, <span style="font-weight:bold;">Large Language Models (LLMs)</span>, <span style="font-weight:bold;">LLM Hallucination</span> and <span style="font-weight:bold;">Natural Language Processing (NLP)</span>, <span style="font-weight:bold;">Computer Vision (CV)</span>. I have also conducted some research in <span style="font-weight:bold;">AI for Social Sciences (Cognitive Computing)</span> and <span style="font-weight:bold;">Signal Processing (Bearing Fault Detection)</span>.
+        <div class="about-text" style="margin-top: -10px; line-height: 1.8; font-family: Arial, sans-serif;">
+        <p>
+        Hello! Welcome to my personal page :) I'm <span style="font-weight:bold;">Dai</span>, currently an 
+        <span style="font-weight:bold;">Algorithm Engineer</span> @ <span style="font-weight:bold;">Imperial Vision</span> and also a 
+        <span style="font-weight:bold;">Research Intern</span> @ the <span style="font-weight:bold;">IFRC of Zhejiang University Binjiang Institute</span>.
+        </p>
+        <p>
+        My areas of interest include <span style="font-weight:bold;">Machine Learning (ML)</span>, 
+        <span style="font-weight:bold;">Large Language Models (LLMs)</span>, 
+        <span style="font-weight:bold;">LLM Hallucination</span>, and 
+        <span style="font-weight:bold;">Natural Language Processing (NLP)</span>, as well as 
+        <span style="font-weight:bold;">Computer Vision (CV)</span>. 
+        I have also conducted research in <span style="font-weight:bold;">AI for Social Sciences (Cognitive Computing)</span> and 
+        <span style="font-weight:bold;">Signal Processing (Bearing Fault Detection)</span>.
+        </p>
+        <p>
+        I am passionate about bridging technology and societal impact through AI, and I strive to make intelligent systems more 
+        <span style="font-weight:bold; color: #0078D4;">reliable</span>, 
+        <span style="font-weight:bold; color: #0078D4;">transparent</span>, and 
+        <span style="font-weight:bold; color: #0078D4;">effective</span>. 
+        My current focus lies in <span style="font-weight:bold;">LLM alignment</span> and exploring applications in 
+        <span style="font-weight:bold;">multi-modal AI</span>.
+        </p>
+        <p>
+        Feel free to connect with me or explore my projects—let’s create something amazing together! 🚀
+        </p>
         </div>
+
         """,
         unsafe_allow_html=True
     )
