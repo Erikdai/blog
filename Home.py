@@ -63,7 +63,7 @@ with col2:
         <span style="font-weight:bold;">Research Intern</span> @ the <span style="font-weight:bold;">IFRC of Zhejiang University Binjiang Institute</span>.
         </p>
         <p>
-        My areas of interest include <span style="font-weight:bold;">Machine Learning (ML)</span>, 
+        My areas of interest include <span style="font-weight:bold; color: #0078D4;">Machine Learning (ML)</span>, 
         <span style="font-weight:bold; color: #0078D4;">Large Language Models (LLMs)</span>, 
         <span style="font-weight:bold; color: #0078D4;">LLM Hallucination</span>, and 
         <span style="font-weight:bold; color: #0078D4;">Natural Language Processing (NLP)</span>, as well as 
@@ -75,7 +75,7 @@ with col2:
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman (UTAR), Malaysia, in 2024. I will continue my academic journey at the University of Malaya (UM), pursuing a Master's degree in Data Science.
         </p>
         <p>
-        Feel free to <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:blue;">connect with me on LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:blue;">email</a>—let’s create something amazing together! 🚀
+        Feel free to connect with me on<a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:blue;">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:blue;">email</a>—let’s create something amazing together! 🚀
         </p>
         </div>
 
