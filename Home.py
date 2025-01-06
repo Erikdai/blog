@@ -61,13 +61,13 @@ with col2:
         Hello! Welcome to my personal page :) I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
         </p>
         <p>
-        My areas of interest include <span style="font-weight:bold; color: #E67E22;">Machine Learning (ML)</span>, 
-        <span style="font-weight:bold; color: #E67E22;">Large Language Models (LLMs)</span>, 
-        <span style="font-weight:bold; color: #E67E22;">LLM Hallucination</span>, and 
-        <span style="font-weight:bold; color: #E67E22;">Natural Language Processing (NLP)</span>, as well as 
-        <span style="font-weight:bold; color: #E67E22;">Computer Vision (CV)</span>. 
-        I have also conducted research in <span style="font-weight:bold; color: #E67E22;">AI for Social Sciences (Cognitive Computing)</span> and 
-        <span style="font-weight:bold; color: #E67E22;">Signal Processing (Bearing Fault Detection)</span>.
+        My areas of interest include <span style="font-weight:bold; color: #4DB6AC;">Machine Learning (ML)</span>, 
+        <span style="font-weight:bold; color: #4DB6AC;">Large Language Models (LLMs)</span>, 
+        <span style="font-weight:bold; color: #4DB6AC;">LLM Hallucination</span>, and 
+        <span style="font-weight:bold; color: #4DB6AC;">Natural Language Processing (NLP)</span>, as well as 
+        <span style="font-weight:bold; color: #4DB6AC;">Computer Vision (CV)</span>. 
+        I have also conducted research in <span style="font-weight:bold; color: #4DB6AC;">AI for Social Sciences (Cognitive Computing)</span> and 
+        <span style="font-weight:bold; color: #4DB6AC;">Signal Processing (Bearing Fault Detection)</span>.
         </p>
         <p>
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024. I will continue my academic journey at the University of Malaya , pursuing a Master's degree in Data Science.
