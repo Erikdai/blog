@@ -51,9 +51,9 @@ for idx, pub in enumerate(publications, start=1):
     st.markdown(
         f"""
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-            <h4>{idx}. {pub['title']}</h4>
+            <h4>{pub['title']}</h4>
             <p><b>Conference/Journal:</b> {pub['conference']}</p>
-            {"[Read Full Text](" + pub['link🔗'] + ")" if 'link' in pub else ""}
+            {"[Read Full Text](" + pub['link🔗'] + ")" if 'link🔗' in pub else ""}
         </div>
         """,
         unsafe_allow_html=True,
