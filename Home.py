@@ -59,28 +59,23 @@ with col2:
         <div class="about-text" style="margin-top: -10px; line-height: 1.8; font-family: Arial, sans-serif;">
         <p>
         Hello! Welcome to my personal page :) I'm <span style="font-weight:bold;">Dai</span>, currently an 
-        <span style="font-weight:bold;">Algorithm Engineer</span> @ <span style="font-weight:bold;">Imperial Vision</span> and also a 
+        <span style="font-weight:bold; ">Algorithm Engineer</span> @ <span style="font-weight:bold;">Imperial Vision</span> and also a 
         <span style="font-weight:bold;">Research Intern</span> @ the <span style="font-weight:bold;">IFRC of Zhejiang University Binjiang Institute</span>.
         </p>
         <p>
         My areas of interest include <span style="font-weight:bold;">Machine Learning (ML)</span>, 
-        <span style="font-weight:bold;">Large Language Models (LLMs)</span>, 
-        <span style="font-weight:bold;">LLM Hallucination</span>, and 
-        <span style="font-weight:bold;">Natural Language Processing (NLP)</span>, as well as 
-        <span style="font-weight:bold;">Computer Vision (CV)</span>. 
-        I have also conducted research in <span style="font-weight:bold;">AI for Social Sciences (Cognitive Computing)</span> and 
-        <span style="font-weight:bold;">Signal Processing (Bearing Fault Detection)</span>.
+        <span style="font-weight:bold; color: #0078D4;">Large Language Models (LLMs)</span>, 
+        <span style="font-weight:bold; color: #0078D4;">LLM Hallucination</span>, and 
+        <span style="font-weight:bold; color: #0078D4;">Natural Language Processing (NLP)</span>, as well as 
+        <span style="font-weight:bold; color: #0078D4;">Computer Vision (CV)</span>. 
+        I have also conducted research in <span style="font-weight:bold; color: #0078D4;">AI for Social Sciences (Cognitive Computing)</span> and 
+        <span style="font-weight:bold; color: #0078D4;">Signal Processing (Bearing Fault Detection)</span>.
         </p>
         <p>
-        I am passionate about bridging technology and societal impact through AI, and I strive to make intelligent systems more 
-        <span style="font-weight:bold; color: #0078D4;">reliable</span>, 
-        <span style="font-weight:bold; color: #0078D4;">transparent</span>, and 
-        <span style="font-weight:bold; color: #0078D4;">effective</span>. 
-        My current focus lies in <span style="font-weight:bold;">LLM alignment</span> and exploring applications in 
-        <span style="font-weight:bold;">multi-modal AI</span>.
+        I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman (UTAR), Malaysia, in 2024. I will continue my academic journey at the University of Malaya (UM), pursuing a Master's degree in Data Science.
         </p>
         <p>
-        Feel free to connect with me or explore my projects—let’s create something amazing together! 🚀
+        Feel free to <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:blue;">connect with me on LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:blue;">email</a>—let’s create something amazing together! 🚀
         </p>
         </div>
 
