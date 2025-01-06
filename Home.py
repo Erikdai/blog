@@ -58,9 +58,7 @@ with col2:
         """
         <div class="about-text" style="margin-top: -10px; line-height: 1.8; font-family: Arial, sans-serif;">
         <p>
-        Hello! Welcome to my personal page :) I'm <span style="font-weight:bold; color:#4A90E2;">Dai</span>, currently an 
-        <span style="font-weight:bold; color:#4A90E2;">Algorithm Engineer</span> @ <span style="font-weight:bold; color:#4A90E2;">Imperial Vision</span> and also a 
-        <span style="font-weight:bold; color:#4A90E2;">Research Intern</span> @ the <span style="font-weight:bold; color:#4A90E2;">IFRC of Zhejiang University Binjiang Institute</span>.
+        Hello! Welcome to my personal page :) I'm Dai, currently an Algorithm Engineer @ Imperial Vision and also a Research Intern @ the IFRC of Zhejiang University Binjiang Institute.
         </p>
         <p>
         My areas of interest include <span style="font-weight:bold; color: #E67E22;">Machine Learning (ML)</span>, 
@@ -75,7 +73,7 @@ with col2:
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman , Malaysia, in 2024. I will continue my academic journey at the University of Malaya , pursuing a Master's degree in Data Science.
         </p>
         <p>
-        Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#1ABC9C;">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:#1ABC9C;">Email</a>.
+        Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#4A90E2">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:#4A90E2;">Email</a>.
         </p>
         </div>
 
