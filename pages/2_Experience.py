@@ -17,8 +17,8 @@ st.markdown(
     """
     - **Universiti Tunku Abdul Rahman (UTAR)**  
       *Bachelor of Computer Science with Honours (Merit)*  
-      📅_2021-01 ~ 2024-09_   
-      📍_Kampar, Perak, Malaysia_ 
+      📅 *2021-01 ~ 2024-09*  
+      📍 *Kampar, Perak, Malaysia*
     """
 )
 st.divider()
@@ -29,18 +29,18 @@ st.markdown(
     """
     - **Ruijie Networks**  
       *Technical Service Intern*  
-     📅 _2023-10 ~ 2024-01_    
-     📍_Fuzhou, Fujian, China_  
+      📅 *2023-10 ~ 2024-01*  
+      📍 *Fuzhou, Fujian, China*  
       
     - **Imperial Vision Group Co., Ltd., AI Research Institute**  
       *Algorithm Engineer Intern*  
-      📅_2024-12 ~ Present_    
-      📍_Fuzhou, Fujian, China_  
+      📅 *2024-12 ~ Present*  
+      📍 *Fuzhou, Fujian, China*  
       
     - **IFRC, Zhejiang University Binjiang Institute**  
       *Research Intern (Hybrid)*  
-      📅_2024-12 ~ Present_    
-      📍_Hangzhou, Zhejiang, China_ 
+      📅 *2024-12 ~ Present*  
+      📍 *Hangzhou, Zhejiang, China*
     """
 )
 st.divider()
@@ -49,9 +49,11 @@ st.divider()
 st.header("🌟 Professional Activities")
 st.markdown(
     """
-    - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty** _- 2024_
+    - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty**  
+      📅 *2024*  
 
-    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  _-2025_
+    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  
+      📅 *2025*
     """
 )
 st.divider()
