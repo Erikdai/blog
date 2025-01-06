@@ -17,7 +17,7 @@ st.markdown(
     """
     - **Universiti Tunku Abdul Rahman (UTAR)**  
       *Bachelor of Computer Science with Honours (Merit)*  
-      _2021-01 ~ 2024-09_  📍 Kampar, Perak, Malaysia  
+      📅_2021-01 ~ 2024-09_    📍_Kampar, Perak, Malaysia_  
     """
 )
 st.divider()
@@ -28,15 +28,15 @@ st.markdown(
     """
     - **Ruijie Networks**  
       *Technical Service Intern*  
-      _2023-10 ~ 2024-01_  📍 Fuzhou, Fujian, China  
+     📅 _2023-10 ~ 2024-01_    📍_Fuzhou, Fujian, China _  
       
     - **Imperial Vision Group Co., Ltd., AI Research Institute**  
       *Algorithm Engineer Intern*  
-      _2024-12 ~ Present_  📍 Fuzhou, Fujian, China  
+      📅_2024-12 ~ Present_    📍 _Fuzhou, Fujian, China _  
       
     - **IFRC, Zhejiang University Binjiang Institute**  
       *Research Intern (Hybrid)*  
-      _2024-12 ~ Present_  📍Hangzhou, Zhejiang, China  
+      📅_2024-12 ~ Present_    📍 _Hangzhou, Zhejiang, China _  
     """
 )
 st.divider()
