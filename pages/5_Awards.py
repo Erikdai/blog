@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Awards🏆")
+st.title("🏆Awards")
 st.divider()
 
 # 自定义证书名字、图片路径以及图片标题
