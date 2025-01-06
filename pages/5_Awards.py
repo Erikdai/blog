@@ -13,7 +13,7 @@ st.divider()
 certificates = [
     {"path": "pages/RanDomSeed - LMSYS - Chatbot Arena Human Preference Predictions.png", "text": "Kaggle competition: LMSYS - Chatbot Arena Human Preference Predictions 🥈", "caption": "Award 1"},
     {"path": "pages/RanDomSeed - NeurIPS 2024 - Predict New Medicines with BELKA.png", "text": "Kaggle competition: RanDomSeed - NeurIPS 2024 - Predict New Medicines with BELKA 🥉", "caption": "Award 2"},
-    {"path": "pages/RanDomSeed - Google - Fast or Slow Predict AI Model Runtime.png", "text": "Kaggle competition: RanDomSeed - Google - Fast or Slow Predict AI Model Runtimet 🥉", "caption": "Award 3"},
+    {"path": "pages/RanDomSeed - Google - Fast or Slow_ Predict AI Model Runtime.png", "text": "Kaggle competition: RanDomSeed - Google - Fast or Slow Predict AI Model Runtimet 🥉", "caption": "Award 3"},
 ]
 
 # 遍历每张证书并显示
