@@ -39,7 +39,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Main Page (Home)
-st.title("About me 😎")
+st.title("About me😎")
 st.divider()
 
 # Main content section
