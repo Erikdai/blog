@@ -25,9 +25,12 @@ certificates = [
 for cert in certificates:
     col1, col2 = st.columns([1, 2])  # 定义左右两列
 
-    # 左列：显示自定义 Markdown 文本
+    # 左列：显示自定义 Markdown 文本，并加大字体
     with col1:
-        st.markdown(cert["text"])  # 使用 Markdown 文本显示高亮文字
+        st.markdown(
+            f"<div style='font-size: 20px; font-weight: bold;'>{cert['text']}</div>",
+            unsafe_allow_html=True
+        )
 
     # 右列：显示证书图片并添加标题
     with col2:
