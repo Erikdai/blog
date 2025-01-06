@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("📖Publications")
+st.title("📖 Publications")
 st.divider()
 
 # Define publications
@@ -45,17 +45,15 @@ publications = [
     },
 ]
 
-
 # 展示 publications
 for idx, pub in enumerate(publications, start=1):
     st.markdown(
         f"""
-        <div style="background-color: #f9f9f9; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-            <h3 style="color: #0078D4;">{pub['title']}</h3>
-             <p><b>Conference/Journal:</b> {pub['conference']} {"<a href='" + pub['link'] + "' target='_blank' style='color: #FF6347; text-decoration: none;'>Read Full Text🔗</a>" if 'link' in pub else ""}</p>
-        </div>
+        <div style="background-color: #2c2f33; padding: 15px; border-radius: 10px; margin-bottom: 20px; color: #f1f1f1;">
+            <h3 style="color: #4DB6AC;">{idx}. {pub['title']}</h3>
+            <p><b>Conference/Journal:</b> {pub['conference']}</p>
+            {"<a href='" + pub['link'] + "' target='_blank' style='color: #64B5F6; text-decoration: none;'>Read Full Text 🔗</a>" if 'link' in pub else ""}
         </div>
         """,
         unsafe_allow_html=True,
     )
-
