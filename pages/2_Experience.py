@@ -18,9 +18,10 @@ st.markdown(
     - **Universiti Tunku Abdul Rahman (UTAR)**  
       *Bachelor of Computer Science with Honours (Merit)*  
       _2021-01 ~ 2024-09_  
-      📍 Malaysia  
+      📍 Kampar, Perak, Malaysia  
     """
 )
+st.divider()
 
 # 工作经历
 st.header("💼 Professional Experience")
@@ -42,6 +43,7 @@ st.markdown(
       📍Hangzhou, Zhejiang, China  
     """
 )
+st.divider()
 
 # 专业活动
 st.header("🌟 Professional Activities")
@@ -52,6 +54,7 @@ st.markdown(
     - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  - 2025
     """
 )
+st.divider()
 
 # 页面美化
 st.markdown(
