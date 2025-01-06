@@ -1,4 +1,10 @@
 import streamlit as st
+# Set page configuration
+st.set_page_config(
+    page_title="Daicx670",
+    page_icon="🚀",
+    layout="wide",
+)
 
 st.title("Awards🏆")
 st.divider()
