@@ -26,7 +26,7 @@ st.markdown("""
         align-items: center;
     }
     .contact-links a img {
-        margin-right: 3px;
+        margin-right: 0px;
         width: 45px;
         height: 45px;
         border-radius: 50%; /* Makes the icons circular */
