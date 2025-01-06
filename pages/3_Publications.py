@@ -10,7 +10,6 @@ st.set_page_config(
 st.title("Publications📖")
 st.divider()
 
-
 # Define publications
 publications = [
     {
@@ -41,11 +40,11 @@ publications = [
     },
 ]
 
-# Display publications
-for pub in publications:
+# Display publications with numbering
+for idx, pub in enumerate(publications, 1):
     st.markdown(
         f"""
-        ### {pub['title']}
+        ### {idx}. {pub['title']}
         **Conference/Journal:** {pub['conference']}
         {"[Read Full Text](" + pub['link'] + ")" if 'link' in pub else ""}
         """
