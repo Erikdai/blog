@@ -46,7 +46,7 @@ st.divider()
 st.markdown('<div class="main-content">', unsafe_allow_html=True)
 
 # Columns for layout
-col1, col2 = st.columns([1, 2], gap="medium")
+col1, col2 = st.columns([1, 2], gap="small")
 
 # Left column for profile image
 with col1:
