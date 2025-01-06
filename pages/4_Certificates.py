@@ -26,7 +26,7 @@ certificates = [
     {"path": "pages/cert12.jpg", "text": "Certificate 12: Tencent Cloud Developer Certification - Keras-based Traffic Sign Recognition for AI Applications", "caption": "Certificate 12"},
     {"path": "pages/cert13.jpg", "text": "Certificate 13: Itronix Solutions - Artificial Intelligence Certificate", "caption": "Certificate 13"},
     {"path": "pages/cert14.jpg", "text": "Certificate 14: Itronix Solutions - Data Science Professional Certificate", "caption": "Certificate 14"},
-    {"path": "pages/cert14.jpg", "text": "Certificate 14: Itronix Solutions - Data Science Professional Certificate", "caption": "Certificate 14"},
+    {"path": "pages/cert15.jpg", "text": "Certificate 15: AI for Product Management", "caption": "Certificate 15"},
 ]
 
 # 遍历每张证书并显示
