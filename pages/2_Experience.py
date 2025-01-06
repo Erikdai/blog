@@ -49,9 +49,9 @@ st.divider()
 st.header("🌟 Professional Activities")
 st.markdown(
     """
-    - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty** - 2024
+    - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty** _- 2024_
 
-    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  - 2025
+    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  _-2025_
     """
 )
 st.divider()
