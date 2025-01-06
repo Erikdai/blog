@@ -17,7 +17,7 @@ st.markdown(
     """
     - **Universiti Tunku Abdul Rahman (UTAR)**  
       *Bachelor of Computer Science with Honours (Merit)*  
-      📅_2021-01 ~ 2024-09_    
+      📅_2021-01 ~ 2024-09_   
       📍_Kampar, Perak, Malaysia_  
     """
 )
