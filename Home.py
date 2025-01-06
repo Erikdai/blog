@@ -72,7 +72,7 @@ with col2:
         <span style="font-weight:bold; color: #E67E22;">Signal Processing (Bearing Fault Detection)</span>.
         </p>
         <p>
-        I received a <span style="font-weight:bold; color:#9B59B6;">Bachelor of Computer Science with Honors (Merit)</span> from <span style="font-weight:bold; color:#9B59B6;">Universiti Tunku Abdul Rahman (UTAR)</span>, Malaysia, in 2024. I will continue my academic journey at <span style="font-weight:bold; color:#9B59B6;">the University of Malaya (UM)</span>, pursuing a <span style="font-weight:bold; color:#9B59B6;">Master's degree in Data Science</span>.
+        I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman , Malaysia, in 2024. I will continue my academic journey at the University of Malaya , pursuing a Master's degree in Data Science.
         </p>
         <p>
         Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#1ABC9C;">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:#1ABC9C;">Email</a>.
