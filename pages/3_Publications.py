@@ -40,15 +40,13 @@ publications = [
     },
 ]
 
-# Display publications with proper alignment
-for idx, pub in enumerate(publications, 1):
+# Display publications
+for pub in publications:
     st.markdown(
         f"""
-        <div style="margin-bottom: 20px;">
-            <b>{idx}. {pub['title']}</b><br>
-            <span style="margin-left: 20px;">Conference/Journal: {pub['conference']}</span><br>
-            {"<span style='margin-left: 20px;'>[Read Full Text](" + pub['link'] + ")</span>" if 'link' in pub else ""}
-        </div>
-        """,
-        unsafe_allow_html=True,
+        ### {pub['title']}
+        **Conference/Journal:** {pub['conference']}
+        {"[Read Full Text](" + pub['link'] + ")" if 'link' in pub else ""}
+        """
     )
+    st.markdown("---")
