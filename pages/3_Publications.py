@@ -50,7 +50,7 @@ for idx, pub in enumerate(publications, start=1):
     st.markdown(
         f"""
         <div style="background-color: #2c2f33; padding: 15px; border-radius: 10px; margin-bottom: 20px; color: #f1f1f1;">
-            <h3 style="color: #4DB6AC;">{idx}. {pub['title']}</h3>
+            <h3 style="color: #4DB6AC;">{pub['title']}</h3>
             <p><b>Conference/Journal:</b> {pub['conference']}</p>
             {"<a href='" + pub['link'] + "' target='_blank' style='color: #64B5F6; text-decoration: none;'>Read Full Text 🔗</a>" if 'link' in pub else ""}
         </div>
