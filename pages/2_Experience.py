@@ -62,7 +62,7 @@ st.markdown(
     <style>
     .main div.stMarkdown {
         font-family: Arial, sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.8;
     }
     .main h1 {
