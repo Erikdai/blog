@@ -1,5 +1,12 @@
 import streamlit as st
 
+# Set page configuration
+st.set_page_config(
+    page_title="Daicx669",
+    page_icon="🚀",
+    layout="wide",
+)
+
 st.title("Certificates📜")
 st.divider()
 
