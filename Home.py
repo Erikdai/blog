@@ -75,7 +75,7 @@ with col2:
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman (UTAR), Malaysia, in 2024. I will continue my academic journey at the University of Malaya (UM), pursuing a Master's degree in Data Science.
         </p>
         <p>
-        Feel free to connect with me on<a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:blue;">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:blue;">email</a>—let’s create something amazing together! 🚀
+        Feel free to connect with me on<a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:blue;"> LinkedIn </a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:blue;">Email</a>🚀
         </p>
         </div>
 
