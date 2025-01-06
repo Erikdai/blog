@@ -22,6 +22,12 @@ certificates = [
 ]
 
 for cert in certificates:
-    st.subheader(cert["caption"])
-    st.image(cert["path"], caption=cert["caption"], use_container_width=True)
-    st.divider()
+    col1, col2 = st.columns([1, 2])  # 定义左右两列，左侧为1份宽度，右侧为2份宽度
+
+    with col1:
+        st.subheader(cert["caption"])  # 左侧显示证书名字
+
+    with col2:
+        st.image(cert["path"], caption=cert["caption"], use_container_width=True)  # 右侧显示证书图片
+
+    st.divider()  # 每个证书之间添加分割线
