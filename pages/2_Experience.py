@@ -3,13 +3,12 @@ import streamlit as st
 # 页面配置
 st.set_page_config(
     page_title="Daicx668 - Experience",
-    page_icon="💼",
+    page_icon="📚",
     layout="wide",
 )
 
 # 页面标题
-st.title("💼 Experience")
-st.markdown("以下是我的教育背景和工作经历，以及我参与的专业活动和学术贡献。✨")
+st.title("📚 Experience")
 st.divider()
 
 # 教育背景
@@ -30,17 +29,17 @@ st.markdown(
     - **Ruijie Networks**  
       *Technical Service Intern*  
       _2023-10 ~ 2024-01_  
-      📍 China  
+      📍 Fuzhou, Fujian, China  
       
     - **Imperial Vision Group Co., Ltd., AI Research Institute**  
-      *Algorithm Intern*  
+      *Algorithm Engineer Intern*  
       _2024-12 ~ Present_  
-      📍 China  
+      📍 Fuzhou, Fujian, China  
       
     - **IFRC, Zhejiang University Binjiang Institute**  
       *Research Intern (Hybrid)*  
       _2024-12 ~ Present_  
-      📍 China  
+      📍Hangzhou, Zhejiang, China  
     """
 )
 
@@ -48,11 +47,9 @@ st.markdown(
 st.header("🌟 Professional Activities")
 st.markdown(
     """
-    - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty**  
-      _2024_
+    - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty** - 2024
 
-    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  
-      _2025_
+    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  - 2025
     """
 )
 
