@@ -1,14 +1,3 @@
-import streamlit as st
-
-# Set page configuration
-st.set_page_config(
-    page_title="Daicx667",
-    page_icon="🚀",
-    layout="wide",
-)
-
-st.title("Experience📚")
-st.divider()
 
 import streamlit as st
 
