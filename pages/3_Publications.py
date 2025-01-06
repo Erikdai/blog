@@ -52,7 +52,7 @@ for idx, pub in enumerate(publications, start=1):
         f"""
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
             <h3 style="color: #0078D4;">{pub['title']}</h3>
-             <p><b>Conference/Journal:</b> {pub['conference']} {"<a href='" + pub['link'] + "' target='_blank' text-decoration: none;'>Read Full Text🔗</a>" if 'link' in pub else ""}</p>
+             <p><b>Conference/Journal:</b> {pub['conference']} {"<a href='" + pub['link'] + "' target='_blank' style='color: #FF6347; text-decoration: none;'>Read Full Text🔗</a>" if 'link' in pub else ""}</p>
         </div>
         </div>
         """,
