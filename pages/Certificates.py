@@ -28,7 +28,7 @@ for cert in certificates:
     # 左列：显示自定义 Markdown 文本，并加大字体
     with col1:
         st.markdown(
-            f"<div style='font-size: 15px; font-weight: bold;'>{cert['text']}</div>",
+            f"<div style='font-size: 20px; font-weight: bold;'>{cert['text']}</div>",
             unsafe_allow_html=True
         )
 
