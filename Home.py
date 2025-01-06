@@ -46,11 +46,11 @@ st.divider()
 st.markdown('<div class="main-content">', unsafe_allow_html=True)
 
 # Columns for layout
-col1, col2 = st.columns([1, 2], gap="small")
+col1, col2 = st.columns([1, 2], gap="medium")
 
 # Left column for profile image
 with col1:
-    st.image("static/id.jpg", width=225, caption="DingDongJi")
+    st.image("static/id.jpg", width=250, caption="DingDongJi")
 
 # Right column for detailed bio
 with col2:
