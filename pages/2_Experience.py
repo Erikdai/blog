@@ -67,6 +67,9 @@ st.markdown(
 
     - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  
       📅 *2025-03*
+
+    - **The 1st Workshop on GenAI Watermarking (WMark@ICLR)**  
+      📅 *2025-04*
     """
 )
 st.divider()
