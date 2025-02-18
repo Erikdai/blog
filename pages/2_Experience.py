@@ -45,7 +45,7 @@ st.markdown(
       📅 *2024-12 ~ Present*  
       📍 *Hangzhou, Zhejiang, China*
       
-    - **Imperial Vision Group Co., Ltd., AI Research Institute**  
+    - **AI Research Institute, Imperial Vision Group Co., Ltd.**  
       *Algorithm Engineer Intern*  
       📅 *2024-12 ~ 2025-02*  
       📍 *Fuzhou, Fujian, China*  
