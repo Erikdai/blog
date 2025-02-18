@@ -15,7 +15,7 @@ st.divider()
 st.header("🎓 Education")
 st.markdown(
     """
-    - **Universiti Tunku Abdul Rahman (UTAR)**  
+    - **Universiti Tunku Abdul Rahman**  
       *Bachelor of Computer Science with Honours (Merit)*  
       📅 *2021-01 ~ 2024-09*  
       📍 *Kampar, Perak, Malaysia*
@@ -50,7 +50,7 @@ st.markdown(
       📅 *2024-12 ~ 2025-02*  
       📍 *Fuzhou, Fujian, China*  
 
-       - **Ruijie Networks**  
+    - **Ruijie Networks**  
       *Technical Service Intern*  
       📅 *2023-10 ~ 2024-01*  
       📍 *Fuzhou, Fujian, China* 
