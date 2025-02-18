@@ -32,7 +32,7 @@ st.markdown(
 st.divider()
 
 # 工作经历
-st.header("💼 Professional Experience")
+st.header("💼 Working Experience")
 st.markdown(
     """ 
      - **Artificial Intelligence Research Institute, China Academy of Information and Communications Technology (CAICT)**  
