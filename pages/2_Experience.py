@@ -21,26 +21,39 @@ st.markdown(
       📍 *Kampar, Perak, Malaysia*
     """
 )
+st.markdown(
+    """
+    - **University of Sydney**  
+      *Master of Computer Science (advanced entry)*  
+      📅 *2025-08 ~ 2027-08*  
+      📍 *Camperdown/Darlington, Sydney, Australia*
+    """
+)
 st.divider()
 
 # 工作经历
 st.header("💼 Professional Experience")
 st.markdown(
-    """
-    - **Ruijie Networks**  
-      *Technical Service Intern*  
-      📅 *2023-10 ~ 2024-01*  
-      📍 *Fuzhou, Fujian, China*  
-      
-    - **Imperial Vision Group Co., Ltd., AI Research Institute**  
-      *Algorithm Engineer Intern*  
-      📅 *2024-12 ~ Present*  
-      📍 *Fuzhou, Fujian, China*  
-      
+    """ 
+     - **Artificial Intelligence Research Institute, China Academy of Information and Communications Technology (CAICT)**  
+      *Artificial Intelligence Researcher*  
+      📅 *2025-02 ~ Present*  
+      📍 *Beijing, China*
+            
     - **IFRC, Zhejiang University Binjiang Institute**  
       *Research Intern (Hybrid)*  
       📅 *2024-12 ~ Present*  
       📍 *Hangzhou, Zhejiang, China*
+      
+    - **Imperial Vision Group Co., Ltd., AI Research Institute**  
+      *Algorithm Engineer Intern*  
+      📅 *2024-12 ~ 2025-02*  
+      📍 *Fuzhou, Fujian, China*  
+
+       - **Ruijie Networks**  
+      *Technical Service Intern*  
+      📅 *2023-10 ~ 2024-01*  
+      📍 *Fuzhou, Fujian, China* 
     """
 )
 st.divider()
@@ -50,10 +63,10 @@ st.header("🌟 Professional Activities")
 st.markdown(
     """
     - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty**  
-      📅 *2024*  
+      📅 *2024-10*  
 
     - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  
-      📅 *2025*
+      📅 *2025-03*
     """
 )
 st.divider()
