@@ -1,17 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.title("我的出海智能助手")
+st.title("出海智能助手 Demo")
 
-coze_html = """
-<div id="coze-widget"></div>
-<script>
-  window.cozeSettings = {
-    bot_id: '7488600231509131318',  // <-- 替换成你自己的
-    mode: 'embedded',          // 或者 'embedded' 模式
-  };
-</script>
-<script src="https://cdn.coze.cn/web-sdk/v1/coze-web-sdk.umd.js"></script>
-"""
+# 替换为你自己 Coze Bot 的 Web 公共链接
+iframe_url = "https://www.coze.cn/space/7488599222121086985/bot/7488600231509131318"  # 你的 Coze 应用网页地址
 
-components.html(coze_html, height=600)
+components.iframe(iframe_url, height=600, scrolling=True)
