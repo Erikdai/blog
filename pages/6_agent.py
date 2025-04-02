@@ -8,7 +8,7 @@ coze_html = """
 <script>
   window.cozeSettings = {
     bot_id: '7488600231509131318',  // <-- 替换成你自己的
-    mode: 'popup',          // 或者 'embedded' 模式
+    mode: 'embedded',          // 或者 'embedded' 模式
   };
 </script>
 <script src="https://cdn.coze.cn/web-sdk/v1/coze-web-sdk.umd.js"></script>
