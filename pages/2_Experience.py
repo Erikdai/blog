@@ -35,14 +35,19 @@ st.divider()
 st.header("💼 Working Experience")
 st.markdown(
     """ 
+      - **A*STAR Singapore Institute of Manufacturing Technology (SIMTech)**  
+      *Research Intern*  
+      📅 *2025-10 ~ Present*  
+      📍 *Singapore*
+      
      - **Artificial Intelligence Research Institute, China Academy of Information and Communications Technology (CAICT)**  
       *Artificial Intelligence Researcher*  
-      📅 *2025-02 ~ Present*  
+      📅 *2025-02 ~ 2025-07*  
       📍 *Beijing, China*
             
     - **IFRC, Zhejiang University Binjiang Institute**  
       *Research Intern (Hybrid)*  
-      📅 *2024-12 ~ Present*  
+      📅 *2024-12 ~ 2025-12*  
       📍 *Hangzhou, Zhejiang, China*
       
     - **AI Research Institute, Imperial Vision Group Co., Ltd.**  
@@ -62,14 +67,17 @@ st.divider()
 st.header("🌟 Professional Activities")
 st.markdown(
     """
+     - **Program Committee, AAAI 2026**  
+      📅 *2025-04*
+      
+    - **Reviewer, The 1st Workshop on GenAI Watermarking (WMark@ICLR)**  
+      📅 *2025-04*
+      
+    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025 & 2026**  
+      📅 *2025-03 & 2026-03*
+      
     - **Reviewer, NeurIPS 2024 Workshop on Bayesian Decision-Making and Uncertainty**  
       📅 *2024-10*  
-
-    - **Reviewer, International Joint Conference on Neural Networks (IJCNN) 2025**  
-      📅 *2025-03*
-
-    - **The 1st Workshop on GenAI Watermarking (WMark@ICLR)**  
-      📅 *2025-04*
     """
 )
 st.divider()
