@@ -40,12 +40,12 @@ st.markdown(
       📅 *2025-10 ~ Present*  
       📍 *Singapore*
       
-     - **Artificial Intelligence Research Institute, China Academy of Information and Communications Technology (CAICT)**  
+     - **China Academy of Information and Communications Technology (CAICT)**  
       *Algorithm Engineer & Research Intern*  
       📅 *2025-02 ~ 2025-07*  
       📍 *Beijing, China*
             
-    - **IFRC, Zhejiang University Binjiang Institute**  
+    - **Zhejiang University Binjiang Institute**  
       *Research Intern (Hybrid)*  
       📅 *2024-12 ~ 2025-12*  
       📍 *Hangzhou, Zhejiang, China*
