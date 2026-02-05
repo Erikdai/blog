@@ -54,11 +54,6 @@ publications = [
         "conference": "arXiv (Under Review)",
         "link": "https://arxiv.org/abs/2407.16252",
     },
-    {
-        "title": "Study on breast cancer image detection and classification based on residual connected convolutional neural network (CNN)",
-        "conference": "2nd International Conference on Modern Medicine and Global Health (Conference Paper, Published)",
-        "link": "https://www.ewadirect.com/proceedings/tns/article/view/10586",
-    },
 ]
 
 # 展示 publications
