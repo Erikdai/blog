@@ -64,17 +64,15 @@ with col2:
 
         <p>
         My areas of interest include 
-        My areas of interest include 
         <span style="font-weight:bold; color: #4DB6AC;">Large Language Models (LLMs) and Agentic Systems</span>, 
         with a focus on: 
         <span style="font-weight:bold; color: #4DB6AC;">Reinforcement Learning for Multi-Agent Collaboration</span>, 
         <span style="font-weight:bold; color: #4DB6AC;">Agent Memory</span>, and 
         <span style="font-weight:bold; color: #4DB6AC;">Self-Evolving Agents</span>, 
         as well as related topics in trustworthy and efficient AI.
-
         </p>
         <p>
-        I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024.
+        I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024, and worked as an Algorithm Engineer and Research Intern at the China Academy of Information and Communications Technology (CAICT) in 2025.
         </p>
         <p>
         Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:#4A90E2; font-style:italic;">Email</a>.
