@@ -62,7 +62,7 @@ with col2:
         </p>
 
         <p>
-         I'm Joshua Dai, currently a Tutor and a Master's student in Computer Science at the University of Sydney, and a Research Intern at A*STAR Singapore Institute of Manufacturing Technology.
+         I'm Joshua Dai, currently a Computer Science Master's student and tutor at the University of Sydney, and a Research Intern at A*STAR’s Singapore Institute of Manufacturing Technology (SIMTech).
          </p>
          
         <p>
