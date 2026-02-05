@@ -58,8 +58,9 @@ with col2:
         """
         <div class="about-text" style="margin-top: -10px; line-height: 1.8; font-family: Arial, sans-serif;">
         <p>
-          Hello! Welcome to my personal page :) I'm Joshua Dai, a Master's student @ the University of Sydney and a Research Intern @ A*STAR.
+          Hello! Welcome to my personal page :) I'm Joshua Dai, currently a Master's student in Computer Science at the University of Sydney, and a Research Intern at A*STAR.
         </p>
+
 
         <p>
         My areas of interest include <span style="font-weight:bold; color: #4DB6AC;">Machine Learning (ML)</span>, 
