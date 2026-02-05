@@ -72,13 +72,14 @@ with col2:
         <span style="font-weight:bold; color: #4DB6AC;">Reinforcement Learning for Multi-Agent Collaboration</span>, 
         <span style="font-weight:bold; color: #4DB6AC;">Agent Memory</span>, and 
         <span style="font-weight:bold; color: #4DB6AC;">Self-Evolving Agents</span>, 
-        as well as related topics in trustworthy and efficient AI.
+        as well as related topics in trustworthy and efficient AI. <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">LinkedIn</a>
         </p>
         <p>
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024, and worked as an Algorithm Engineer and Research Intern at the China Academy of Information and Communications Technology in 2025.
         </p>
         <p>
-        Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:#4A90E2; font-style:italic;">Email</a>.
+        Feel free to connect with me on <a href="https://scholar.google.com/citations?user=9IYEVxcAAAAJ&hl=en" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">Google Scholar
+</a>.
         </p>
         </div>
 
