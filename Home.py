@@ -50,7 +50,7 @@ col1, col2 = st.columns([1, 2], gap="medium")
 
 # Left column for profile image
 with col1:
-    st.image("static/id.jpg", width=250, caption="DingDongJi")
+    st.image("static/id.jpg", width=250, caption="Hi")
 
 # Right column for detailed bio
 with col2:
@@ -58,8 +58,9 @@ with col2:
         """
         <div class="about-text" style="margin-top: -10px; line-height: 1.8; font-family: Arial, sans-serif;">
         <p>
-        Hello! Welcome to my personal page :) I'm Dai, currently a Researcher @ Artificial Intelligence Research Institute, China Academy of Information and Communications Technology (CAICT) .
+          Hello! Welcome to my personal page :) I'm Joshua Dai, a Master's student @ the University of Sydney and a Research Intern @ A*STAR.
         </p>
+
         <p>
         My areas of interest include <span style="font-weight:bold; color: #4DB6AC;">Machine Learning (ML)</span>, 
         <span style="font-weight:bold; color: #4DB6AC;">Large Language Models (LLMs)</span>, 
@@ -70,7 +71,7 @@ with col2:
         <span style="font-weight:bold; color: #4DB6AC;">Signal Processing (Bearing Fault Detection)</span>.
         </p>
         <p>
-        I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024. I will continue my academic journey at the University of Sydney , pursuing a Master's degree in Computer Science.
+        I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024.
         </p>
         <p>
         Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">LinkedIn</a> or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:#4A90E2; font-style:italic;">Email</a>.
