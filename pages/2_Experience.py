@@ -41,7 +41,7 @@ st.markdown(
       📍 *Singapore*
       
      - **Artificial Intelligence Research Institute, China Academy of Information and Communications Technology (CAICT)**  
-      *Artificial Intelligence Researcher*  
+      *Algorithm Engineer & Research Intern*  
       📅 *2025-02 ~ 2025-07*  
       📍 *Beijing, China*
             
