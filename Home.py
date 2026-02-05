@@ -78,8 +78,7 @@ with col2:
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024, and worked as an Algorithm Engineer and Research Intern at the China Academy of Information and Communications Technology in 2025.
         </p>
         <p>
-        Feel free to connect with me on <a href="https://scholar.google.com/citations?user=9IYEVxcAAAAJ&hl=en" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">Google Scholar
-</a>.
+        Feel free to connect with me on <a href="https://scholar.google.com/citations?user=9IYEVxcAAAAJ&hl=en" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">Google Scholar</a>.
         </p>
         </div>
 
