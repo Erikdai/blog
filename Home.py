@@ -58,10 +58,13 @@ with col2:
         """
         <div class="about-text" style="margin-top: -10px; line-height: 1.8; font-family: Arial, sans-serif;">
         <p>
-          Hello! Welcome to my personal page :) I'm Joshua Dai, currently a Master's student in Computer Science at the University of Sydney, and a Research Intern at A*STAR Singapore Institute of Manufacturing Technology.
+          Hello! Welcome to my personal page :)
         </p>
 
-
+        <p>
+         I'm Joshua Dai, currently a Tutor and a Master's student in Computer Science at the University of Sydney, and a Research Intern at A*STAR Singapore Institute of Manufacturing Technology.
+         </p>
+         
         <p>
         My areas of interest include 
         <span style="font-weight:bold; color: #4DB6AC;">Large Language Models and Agentic Systems</span>, 
