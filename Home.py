@@ -58,18 +58,18 @@ with col2:
         """
         <div class="about-text" style="margin-top: -10px; line-height: 1.8; font-family: Arial, sans-serif;">
         <p>
-          Hello! Welcome to my personal page :) I'm Joshua Dai, currently a Master's student in Computer Science at the University of Sydney, and a Research Intern at A*STAR.
+          Hello! Welcome to my personal page :) I'm Joshua Dai, currently a Master's student in Computer Science at the University of Sydney, and a Research Intern at A*STAR Singapore Institute of Manufacturing Technology (SIMTech).
         </p>
 
 
         <p>
-        My areas of interest include <span style="font-weight:bold; color: #4DB6AC;">Machine Learning (ML)</span>, 
-        <span style="font-weight:bold; color: #4DB6AC;">Large Language Models (LLMs)</span>, 
-        <span style="font-weight:bold; color: #4DB6AC;">LLM Hallucination</span>, and 
-        <span style="font-weight:bold; color: #4DB6AC;">Natural Language Processing (NLP)</span>, as well as 
-        <span style="font-weight:bold; color: #4DB6AC;">Computer Vision (CV)</span>. 
-        I have also conducted research in <span style="font-weight:bold; color: #4DB6AC;">AI for Social Sciences (Cognitive Computing)</span> and 
-        <span style="font-weight:bold; color: #4DB6AC;">Signal Processing (Bearing Fault Detection)</span>.
+        My areas of interest include 
+        <span style="font-weight:bold; color: #4DB6AC;">Large Language Models (LLMs) and Agentic Systems</span> 
+        (with a focus on), 
+        <span style="font-weight:bold; color: #4DB6AC;">Reinforcement Learning for Multi-Agent Collaboration</span>, 
+        <span style="font-weight:bold; color: #4DB6AC;">Agent Memory</span>, and 
+        <span style="font-weight:bold; color: #4DB6AC;">Self-Evolving Agents</span>, 
+        as well as related topics in trustworthy and efficient AI.
         </p>
         <p>
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024.
