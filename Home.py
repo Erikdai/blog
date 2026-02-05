@@ -64,12 +64,14 @@ with col2:
 
         <p>
         My areas of interest include 
-        <span style="font-weight:bold; color: #4DB6AC;">Large Language Models (LLMs) and Agentic Systems</span> 
-        (with a focus on), 
+        My areas of interest include 
+        <span style="font-weight:bold; color: #4DB6AC;">Large Language Models (LLMs) and Agentic Systems</span>, 
+        with a focus on: 
         <span style="font-weight:bold; color: #4DB6AC;">Reinforcement Learning for Multi-Agent Collaboration</span>, 
         <span style="font-weight:bold; color: #4DB6AC;">Agent Memory</span>, and 
         <span style="font-weight:bold; color: #4DB6AC;">Self-Evolving Agents</span>, 
         as well as related topics in trustworthy and efficient AI.
+
         </p>
         <p>
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024.
