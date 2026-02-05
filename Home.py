@@ -50,7 +50,7 @@ col1, col2 = st.columns([1, 2], gap="medium")
 
 # Left column for profile image
 with col1:
-    st.image("static/me.jpg", width=300, caption="Hi")
+    st.image("static/me.jpg", width=275, caption="Hi")
 
 # Right column for detailed bio
 with col2:
