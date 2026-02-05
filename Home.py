@@ -78,7 +78,7 @@ with col2:
         I received a Bachelor of Computer Science with Honors (Merit) from Universiti Tunku Abdul Rahman, Malaysia, in 2024, and worked as an Algorithm Engineer and Research Intern at the China Academy of Information and Communications Technology in 2025.
         </p>
         <p>
-        Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">LinkedIn</a>.
+        Feel free to connect with me on <a href="https://www.linkedin.com/in/chengxiaodai" target="_blank" style="text-decoration:none; color:#4A90E2; font-style:italic;">LinkedIn</a>or reach out via <a href="mailto:daicxx1226@gmail.com" style="text-decoration:none; color:#4A90E2; font-style:italic;">Email</a>.
         </p>
         </div>
 
